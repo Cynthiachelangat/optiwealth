@@ -1,0 +1,74 @@
+.dashboard .dashboard_wrapper {
+  padding-top: 1rem;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_left {
+  width: 60%;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_left .dash_graph_filters .date_pickers {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_left .dash_graph_filters .date_pickers .dtp_item span {
+  margin-right: 5px;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_left .dash_graph_filters .date_pickers .dtp_item .date_picker {
+  padding: 3px 8px;
+  width: 70px;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_right {
+  width: 40%;
+  height: 100;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_right .dash_my_signals_list {
+  height: -moz-min-content;
+  height: min-content;
+  position: relative;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_right .dash_my_signals_list .dash_signal_item {
+  padding: 10px 20px;
+  background-color: #7b42ff;
+  margin-bottom: 10px;
+  border-radius: 23px;
+  color: #fff;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_right .dash_my_signals_list .dash_signal_item:nth-child(1) {
+  margin-top: 10px;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_right .add_my_signals {
+  padding: 10px 20px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #7b42ff;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_right .stats_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_right .stats_table th,
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_right .stats_table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_right .stats_table th {
+  background-color: #f2f2f2;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_right .stats_table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.dashboard .dashboard_wrapper .dash_landing_flexxer .dash_landing_right .stats_table tbody tr:hover {
+  background-color: #ddd;
+}/*# sourceMappingURL=dashboard.css.map */

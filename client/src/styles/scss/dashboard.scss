@@ -1,0 +1,89 @@
+.dashboard {
+  .dashboard_wrapper {
+    padding-top: 1rem;
+    .dash_landing_flexxer {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      .dash_landing_left {
+        width: 60%;
+        .dash_graph_filters {
+          .date_pickers {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .dtp_item {
+              span {
+                margin-right: 5px;
+              }
+              .date_picker {
+                padding: 3px 8px;
+                width: 70px;
+              }
+            }
+          }
+        }
+      }
+      .dash_landing_right {
+        width: 40%;
+        height: 100;
+        .dash_my_signals_list {
+          height: min-content;
+          position: relative;
+          .dash_signal_item {
+            padding: 10px 20px;
+            background-color: #7b42ff;
+            margin-bottom: 10px;
+            border-radius: 23px;
+            color: #fff;
+            &:nth-child(1) {
+              margin-top: 10px;
+            }
+          }
+          // .dash_empty_signals {
+          //   position: absolute;
+          //   top: 50%;
+          //   left: 50%;
+          //   transform: translate(-50%, -50%);
+          // }
+        }
+        .add_my_signals {
+          padding: 10px 20px;
+          width: 100%;
+          margin: 0 auto;
+          border-radius: 5px;
+          background-color: #7b42ff;
+          color: #fff;
+          cursor: pointer;
+          outline: none;
+          border: none;
+        }
+        .stats_table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-bottom: 20px;
+          margin-top: 20px;
+        }
+
+        .stats_table th,
+        .stats_table td {
+          border: 1px solid #ddd;
+          padding: 8px;
+          text-align: left;
+        }
+
+        .stats_table th {
+          background-color: #f2f2f2;
+        }
+
+        .stats_table tbody tr:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+
+        .stats_table tbody tr:hover {
+          background-color: #ddd;
+        }
+      }
+    }
+  }
+}
